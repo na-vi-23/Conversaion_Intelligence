@@ -1,10 +1,7 @@
-# Seq2Seq Chatbot
+# Natural languages processing 
 
-This is a 200 lines implementation of Twitter/Cornell-Movie Chatbot, please read the following references before you read the code:
 
-- [Practical-Seq2Seq](http://suriyadeepan.github.io/2016-12-31-practical-seq2seq/)
-- [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-- [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) (optional)
+An integral part of a chatbot development is the integration with Natural Languages Processing (NLP) services. Luckily, you don’t have to write your own NLP algorithm. NLP empowers bots to strike natural conversation with a human, and is available as APIs from Google, Microsoft, IBM and Facebook.
 
 ### Prerequisites
 
@@ -29,18 +26,7 @@ python3 main.py
 ```
 
 
-### Results
+### Conversational Intelligence
+This is where chatbot development goes complicated and can take more 200 hours of development and coding. Creating natural replies to give way to intelligent, meaningful conversation based on the NLP intents and entities is an endless journey. You want to make your chatbots as natural as a human, which is impossible. So, you keep improving it.
 
-```
-Query > happy birthday have a nice day
- > thank you so much
- > thank babe
- > thank bro
- > thanks so much
- > thank babe i appreciate it
-Query > donald trump won last nights presidential debate according to snap online polls
- > i dont know what the fuck is that
- > i think he was a racist
- > he is not a racist
- > he is a liar
- > trump needs to be president
+Moreover, each conversation must be tailored to a specialized algorithm and features a minimalistic navigation, so that it is easy for a user to start over. While you can use simple if-else trees, some state-of-the-art deep learning algorithms is what customers expect these days.
